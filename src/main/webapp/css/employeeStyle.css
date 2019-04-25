@@ -116,7 +116,7 @@ button#downloadCsv {
      * 横方向に30pxの余白を指定 */
 	padding: 1px 14px;
 	/* 文字色を白色に指定 */
-	color: #000000;
+	color: #ff8000;
 	/* ボーダーをなくす */
 	border-style: none;
 	/* ボタンの影の指定
