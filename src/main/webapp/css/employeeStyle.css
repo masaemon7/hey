@@ -1,0 +1,151 @@
+@CHARSET "UTF-8";
+th {
+	background: #12fc00;
+}
+
+#list {
+	float: left;
+	width: 40%;
+}
+
+#detail {
+	float: left;
+	width: 60%
+}
+
+#insertBlock {
+	margin: 5px 0px
+}
+
+div .error {
+	color: #3eea12;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+button#saveEmployee {
+	/* 文字サイズを1.2emに指定 */
+	font-size: 2.9em;
+	/* 文字の太さをboldに指定 */
+	font-weight: dotted;
+	/* 縦方向に10px、
+
+     * 横方向に30pxの余白を指定 */
+	padding: 1px 14px;
+	/* 文字色を白色に指定 */
+	color: #000000;
+	/* ボーダーをなくす */
+	border-style: none;
+	/* ボタンの影の指定
+     * 影の横幅を2px
+     * 縦長を2px
+     * ぼかしを3px
+     * 広がりを1px
+     * 色を#666（グレー）に指定 */
+	box-shadow: 2px 2px 3px 1px #666;
+	-moz-box-shadow: 2px 2px 3px 1px #666;
+	-webkit-box-shadow: 4px 7px 3px 2px #000000d6;
+	/* テキストの影の指定
+     * 影の横幅を1px
+     * 縦長を1px
+     * ぼかしを2px
+     * 色を#000（黒）に指定 */
+	text-shadow: 4px 4px 6px #08ff00;
+	/* グラデーションの指定 */
+	background: -moz-linear-gradient(bottom, #36d, #3f4b62 50%, #36d);
+	background: -webkit-gradient(linear, left bottom, left top, from(#000),
+		color-stop(0.5, #14ff00), to(#000));
+	/* 角丸の指定 */
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+button #saveEmployee: hover{
+    /* 透明度を20%に指定 */
+    opacity: 0.4;
+}
+
+#newEmployee {
+		/* 文字サイズを1.4emに指定 */
+	font-size: 1.6em;
+	/* 文字の太さをboldに指定 */
+	font-weight: dotted;
+	/* 縦方向に10px、
+
+     * 横方向に30pxの余白を指定 */
+	padding: 1px 14px;
+	/* 文字色を白色に指定 */
+	color: #000000;
+	/* ボーダーをなくす */
+	border-style: none;
+	/* ボタンの影の指定
+     * 影の横幅を2px
+     * 縦長を2px
+     * ぼかしを3px
+     * 広がりを1px
+     * 色を#666（グレー）に指定 */
+	box-shadow: 2px 2px 3px 1px #666;
+	-moz-box-shadow: 2px 2px 3px 1px #666;
+	-webkit-box-shadow: 4px 7px 3px 2px #000000d6;
+	/* テキストの影の指定
+     * 影の横幅を1px
+     * 縦長を1px
+     * ぼかしを2px
+     * 色を#000（黒）に指定 */
+	text-shadow: 4px 4px 6px #08ff00;
+	/* グラデーションの指定 */
+	background: -moz-linear-gradient(bottom, #36d, #3f4b62 50%, #36d);
+	background: -webkit-gradient(linear, left bottom, left top, from(#000),
+		color-stop(0.5, #14ff00), to(#000));
+	/* 角丸の指定 */
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+button#downloadCsv {
+	/* 文字サイズを1.4emに指定 */
+	font-size: 1.1em;
+	/* 文字の太さをboldに指定 */
+	font-weight: dotted;
+	/* 縦方向に10px、
+
+     * 横方向に30pxの余白を指定 */
+	padding: 1px 14px;
+	/* 文字色を白色に指定 */
+	color: #000000;
+	/* ボーダーをなくす */
+	border-style: none;
+	/* ボタンの影の指定
+     * 影の横幅を2px
+     * 縦長を2px
+     * ぼかしを3px
+     * 広がりを1px
+     * 色を#666（グレー）に指定 */
+	box-shadow: 2px 2px 3px 1px #666;
+	-moz-box-shadow: 2px 2px 3px 1px #666;
+	-webkit-box-shadow: 4px 7px 3px 2px #000000d6;
+	/* テキストの影の指定
+     * 影の横幅を1px
+     * 縦長を1px
+     * ぼかしを2px
+     * 色を#000（黒）に指定 */
+	text-shadow: 4px 4px 6px #08ff00;
+	/* グラデーションの指定 */
+	background: -moz-linear-gradient(bottom, #36d, #3f4b62 50%, #36d);
+	background: -webkit-gradient(linear, left bottom, left top, from(#000),
+		color-stop(0.5, #14ff00), to(#000));
+	/* 角丸の指定 */
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+
+
+}
+button #downloadCsv: hover{
+    /* 透明度を20%に指定 */
+    opacity: 0.8;
+}
