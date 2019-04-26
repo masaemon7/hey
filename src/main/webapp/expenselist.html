@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>経費一覧</title>
+<link rel="stylesheet" href="css/expenselist.css">
+</head>
+<body>
+	<div class="main clearfix">
+		<div id="expense_list">
+			<p>経費一覧:</p>
+			<div id="expenses"></div>
+			<button type="button" id="newExpense">経費追加</button>
+		</div>
+	</div>
+	<div id="detail">
+		<p>経費詳細データ：</p>
+		<form id="postForm">
+			<div class="error"></div>
+			<table border =1>
+			<tr>
+					<th><div><label for="name">申請ID</label> <input type="text"
+						id="requestId">			</div>
+						</th>
+
+
+				<th><div><label for="requestday">申請日</label> <input type="text" id="requestday"
+					required></div></th>
+
+
+				<th><div><label for="update">更新日</label> <input type="text"
+					id="update" required></div></th>
+
+
+				<th><div><label for="name">申請者</label> <input type="text" id="name"
+					required></div></th>
+
+				<th><div><label for="title">タイトル</label> <input type="text"
+					id="title" required></div></th>
+
+				<th><div><label for="amount">金額</label> <input type="text"
+					id="amount" required></div></th>
+
+				<th> <div>
+					<form>
+						<select name="status">
+							<option value="shinseichu">申請中</option>
+							<option value="shinseizumi">承認済み</option>
+							<option value="shoninnfuka">承認不可</option>
+						</select>
+					</form>
+			</div>
+			</th>
+
+
+
+			<a href="#" id="saveExpense">
+  <i class="fa fa-home"></i>
+</a>
+
+		</form>
+	</tr>
+</table>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/expenselist.js"></script>
+</div>
+</body>
+</html>
