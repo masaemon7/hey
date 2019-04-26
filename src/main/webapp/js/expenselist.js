@@ -93,7 +93,7 @@ function deleteByRequestid(requestid) {
 		url: rootUrl+'/'+requestid,
 		success: function() {
 			findAll();
-			$('#requestId').val('');
+			$('#requestid').val('');
 			$('#requestday').val('');
 			$('#update').val('');
 			$('#name').val('');
@@ -139,7 +139,7 @@ function renderTable(data) {
 
 function renderDetails(post) {
 	$('.error').text('');
-	$('#requestId').val(expense.requestid);
+	$('#requetid').val(expense.requestid);
 	$('#requestday').val(expense.requestday);
 	$('#update').val(expense.update);
 	$('#name').val(expense.name);

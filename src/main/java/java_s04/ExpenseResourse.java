@@ -20,7 +20,7 @@ import dao.ExpenseDAO;
 /**
  * 経費関連のサービス実装。
  */
-//@Path("expenses")
+@Path("expenses")
 public class ExpenseResourse {
 	private final ExpenseDAO dao = new ExpenseDAO();
 
